@@ -1,0 +1,547 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		32AD98CC1EF2027D00FA5CA8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD98CB1EF2027D00FA5CA8 /* AppDelegate.swift */; };
+		32AD98CE1EF2027D00FA5CA8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD98CD1EF2027D00FA5CA8 /* ViewController.swift */; };
+		32AD98D11EF2027D00FA5CA8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32AD98CF1EF2027D00FA5CA8 /* Main.storyboard */; };
+		32AD98D41EF2027D00FA5CA8 /* MorseTorch.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32AD98D21EF2027D00FA5CA8 /* MorseTorch.xcdatamodeld */; };
+		32AD98D61EF2027D00FA5CA8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32AD98D51EF2027D00FA5CA8 /* Assets.xcassets */; };
+		32AD98D91EF2027D00FA5CA8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32AD98D71EF2027D00FA5CA8 /* LaunchScreen.storyboard */; };
+		32AD98E41EF2027E00FA5CA8 /* MorseTorchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD98E31EF2027E00FA5CA8 /* MorseTorchTests.swift */; };
+		32AD98EF1EF2027E00FA5CA8 /* MorseTorchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32AD98EE1EF2027E00FA5CA8 /* MorseTorchUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32AD98E01EF2027E00FA5CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AD98C01EF2027D00FA5CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32AD98C71EF2027D00FA5CA8;
+			remoteInfo = MorseTorch;
+		};
+		32AD98EB1EF2027E00FA5CA8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 32AD98C01EF2027D00FA5CA8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 32AD98C71EF2027D00FA5CA8;
+			remoteInfo = MorseTorch;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		32AD98C81EF2027D00FA5CA8 /* MorseTorch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MorseTorch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AD98CB1EF2027D00FA5CA8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		32AD98CD1EF2027D00FA5CA8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		32AD98D01EF2027D00FA5CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		32AD98D31EF2027D00FA5CA8 /* MorseTorch.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MorseTorch.xcdatamodel; sourceTree = "<group>"; };
+		32AD98D51EF2027D00FA5CA8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		32AD98D81EF2027D00FA5CA8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		32AD98DA1EF2027D00FA5CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32AD98DF1EF2027E00FA5CA8 /* MorseTorchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseTorchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AD98E31EF2027E00FA5CA8 /* MorseTorchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseTorchTests.swift; sourceTree = "<group>"; };
+		32AD98E51EF2027E00FA5CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32AD98EA1EF2027E00FA5CA8 /* MorseTorchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MorseTorchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		32AD98EE1EF2027E00FA5CA8 /* MorseTorchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MorseTorchUITests.swift; sourceTree = "<group>"; };
+		32AD98F01EF2027E00FA5CA8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		32AD98C51EF2027D00FA5CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AD98DC1EF2027E00FA5CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AD98E71EF2027E00FA5CA8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		32AD98BF1EF2027D00FA5CA8 = {
+			isa = PBXGroup;
+			children = (
+				32AD98CA1EF2027D00FA5CA8 /* MorseTorch */,
+				32AD98E21EF2027E00FA5CA8 /* MorseTorchTests */,
+				32AD98ED1EF2027E00FA5CA8 /* MorseTorchUITests */,
+				32AD98C91EF2027D00FA5CA8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		32AD98C91EF2027D00FA5CA8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				32AD98C81EF2027D00FA5CA8 /* MorseTorch.app */,
+				32AD98DF1EF2027E00FA5CA8 /* MorseTorchTests.xctest */,
+				32AD98EA1EF2027E00FA5CA8 /* MorseTorchUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		32AD98CA1EF2027D00FA5CA8 /* MorseTorch */ = {
+			isa = PBXGroup;
+			children = (
+				32AD98CB1EF2027D00FA5CA8 /* AppDelegate.swift */,
+				32AD98CD1EF2027D00FA5CA8 /* ViewController.swift */,
+				32AD98CF1EF2027D00FA5CA8 /* Main.storyboard */,
+				32AD98D51EF2027D00FA5CA8 /* Assets.xcassets */,
+				32AD98D71EF2027D00FA5CA8 /* LaunchScreen.storyboard */,
+				32AD98DA1EF2027D00FA5CA8 /* Info.plist */,
+				32AD98D21EF2027D00FA5CA8 /* MorseTorch.xcdatamodeld */,
+			);
+			path = MorseTorch;
+			sourceTree = "<group>";
+		};
+		32AD98E21EF2027E00FA5CA8 /* MorseTorchTests */ = {
+			isa = PBXGroup;
+			children = (
+				32AD98E31EF2027E00FA5CA8 /* MorseTorchTests.swift */,
+				32AD98E51EF2027E00FA5CA8 /* Info.plist */,
+			);
+			path = MorseTorchTests;
+			sourceTree = "<group>";
+		};
+		32AD98ED1EF2027E00FA5CA8 /* MorseTorchUITests */ = {
+			isa = PBXGroup;
+			children = (
+				32AD98EE1EF2027E00FA5CA8 /* MorseTorchUITests.swift */,
+				32AD98F01EF2027E00FA5CA8 /* Info.plist */,
+			);
+			path = MorseTorchUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		32AD98C71EF2027D00FA5CA8 /* MorseTorch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AD98F31EF2027E00FA5CA8 /* Build configuration list for PBXNativeTarget "MorseTorch" */;
+			buildPhases = (
+				32AD98C41EF2027D00FA5CA8 /* Sources */,
+				32AD98C51EF2027D00FA5CA8 /* Frameworks */,
+				32AD98C61EF2027D00FA5CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MorseTorch;
+			productName = MorseTorch;
+			productReference = 32AD98C81EF2027D00FA5CA8 /* MorseTorch.app */;
+			productType = "com.apple.product-type.application";
+		};
+		32AD98DE1EF2027E00FA5CA8 /* MorseTorchTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AD98F61EF2027E00FA5CA8 /* Build configuration list for PBXNativeTarget "MorseTorchTests" */;
+			buildPhases = (
+				32AD98DB1EF2027E00FA5CA8 /* Sources */,
+				32AD98DC1EF2027E00FA5CA8 /* Frameworks */,
+				32AD98DD1EF2027E00FA5CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32AD98E11EF2027E00FA5CA8 /* PBXTargetDependency */,
+			);
+			name = MorseTorchTests;
+			productName = MorseTorchTests;
+			productReference = 32AD98DF1EF2027E00FA5CA8 /* MorseTorchTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		32AD98E91EF2027E00FA5CA8 /* MorseTorchUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32AD98F91EF2027E00FA5CA8 /* Build configuration list for PBXNativeTarget "MorseTorchUITests" */;
+			buildPhases = (
+				32AD98E61EF2027E00FA5CA8 /* Sources */,
+				32AD98E71EF2027E00FA5CA8 /* Frameworks */,
+				32AD98E81EF2027E00FA5CA8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				32AD98EC1EF2027E00FA5CA8 /* PBXTargetDependency */,
+			);
+			name = MorseTorchUITests;
+			productName = MorseTorchUITests;
+			productReference = 32AD98EA1EF2027E00FA5CA8 /* MorseTorchUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		32AD98C01EF2027D00FA5CA8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "Charlie's";
+				TargetAttributes = {
+					32AD98C71EF2027D00FA5CA8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					32AD98DE1EF2027E00FA5CA8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32AD98C71EF2027D00FA5CA8;
+					};
+					32AD98E91EF2027E00FA5CA8 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 32AD98C71EF2027D00FA5CA8;
+					};
+				};
+			};
+			buildConfigurationList = 32AD98C31EF2027D00FA5CA8 /* Build configuration list for PBXProject "MorseTorch" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 32AD98BF1EF2027D00FA5CA8;
+			productRefGroup = 32AD98C91EF2027D00FA5CA8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				32AD98C71EF2027D00FA5CA8 /* MorseTorch */,
+				32AD98DE1EF2027E00FA5CA8 /* MorseTorchTests */,
+				32AD98E91EF2027E00FA5CA8 /* MorseTorchUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		32AD98C61EF2027D00FA5CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AD98D91EF2027D00FA5CA8 /* LaunchScreen.storyboard in Resources */,
+				32AD98D61EF2027D00FA5CA8 /* Assets.xcassets in Resources */,
+				32AD98D11EF2027D00FA5CA8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AD98DD1EF2027E00FA5CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AD98E81EF2027E00FA5CA8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		32AD98C41EF2027D00FA5CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AD98CE1EF2027D00FA5CA8 /* ViewController.swift in Sources */,
+				32AD98D41EF2027D00FA5CA8 /* MorseTorch.xcdatamodeld in Sources */,
+				32AD98CC1EF2027D00FA5CA8 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AD98DB1EF2027E00FA5CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AD98E41EF2027E00FA5CA8 /* MorseTorchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		32AD98E61EF2027E00FA5CA8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32AD98EF1EF2027E00FA5CA8 /* MorseTorchUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		32AD98E11EF2027E00FA5CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32AD98C71EF2027D00FA5CA8 /* MorseTorch */;
+			targetProxy = 32AD98E01EF2027E00FA5CA8 /* PBXContainerItemProxy */;
+		};
+		32AD98EC1EF2027E00FA5CA8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 32AD98C71EF2027D00FA5CA8 /* MorseTorch */;
+			targetProxy = 32AD98EB1EF2027E00FA5CA8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		32AD98CF1EF2027D00FA5CA8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32AD98D01EF2027D00FA5CA8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		32AD98D71EF2027D00FA5CA8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				32AD98D81EF2027D00FA5CA8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		32AD98F11EF2027E00FA5CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		32AD98F21EF2027E00FA5CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		32AD98F41EF2027E00FA5CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MorseTorch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charliejiang.MorseTorch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		32AD98F51EF2027E00FA5CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = MorseTorch/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charliejiang.MorseTorch;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		32AD98F71EF2027E00FA5CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MorseTorchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charliejiang.MorseTorchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorseTorch.app/MorseTorch";
+			};
+			name = Debug;
+		};
+		32AD98F81EF2027E00FA5CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = MorseTorchTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charliejiang.MorseTorchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MorseTorch.app/MorseTorch";
+			};
+			name = Release;
+		};
+		32AD98FA1EF2027E00FA5CA8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MorseTorchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charliejiang.MorseTorchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MorseTorch;
+			};
+			name = Debug;
+		};
+		32AD98FB1EF2027E00FA5CA8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = MorseTorchUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.charliejiang.MorseTorchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = MorseTorch;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		32AD98C31EF2027D00FA5CA8 /* Build configuration list for PBXProject "MorseTorch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AD98F11EF2027E00FA5CA8 /* Debug */,
+				32AD98F21EF2027E00FA5CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		32AD98F31EF2027E00FA5CA8 /* Build configuration list for PBXNativeTarget "MorseTorch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AD98F41EF2027E00FA5CA8 /* Debug */,
+				32AD98F51EF2027E00FA5CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32AD98F61EF2027E00FA5CA8 /* Build configuration list for PBXNativeTarget "MorseTorchTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AD98F71EF2027E00FA5CA8 /* Debug */,
+				32AD98F81EF2027E00FA5CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		32AD98F91EF2027E00FA5CA8 /* Build configuration list for PBXNativeTarget "MorseTorchUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				32AD98FA1EF2027E00FA5CA8 /* Debug */,
+				32AD98FB1EF2027E00FA5CA8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		32AD98D21EF2027D00FA5CA8 /* MorseTorch.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				32AD98D31EF2027D00FA5CA8 /* MorseTorch.xcdatamodel */,
+			);
+			currentVersion = 32AD98D31EF2027D00FA5CA8 /* MorseTorch.xcdatamodel */;
+			path = MorseTorch.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 32AD98C01EF2027D00FA5CA8 /* Project object */;
+}
