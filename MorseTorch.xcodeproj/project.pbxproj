@@ -196,6 +196,7 @@
 				TargetAttributes = {
 					32AD98C71EF2027D00FA5CA8 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = VR7379XQP2;
 						ProvisioningStyle = Automatic;
 					};
 					32AD98DE1EF2027E00FA5CA8 = {
@@ -418,6 +419,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR7379XQP2;
 				INFOPLIST_FILE = MorseTorch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.charliejiang.MorseTorch;
@@ -430,6 +432,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VR7379XQP2;
 				INFOPLIST_FILE = MorseTorch/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.charliejiang.MorseTorch;
