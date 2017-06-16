@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
-    <device id="retina4_7" orientation="portrait">
+    <device id="retina5_5" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
@@ -18,11 +18,14 @@
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Image" translatesAutoresizingMaskIntoConstraints="NO" id="Ryi-K0-flX">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                            </imageView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NGY-Gh-A5t">
-                                <rect key="frame" x="158" y="233" width="41" height="30"/>
+                                <rect key="frame" x="181" y="293" width="41" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Flash!"/>
                                 <connections>
@@ -31,6 +34,12 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Ryi-K0-flX" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="Ese-Nk-VIR"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="Ryi-K0-flX" secondAttribute="bottom" id="Eys-PK-dmU"/>
+                            <constraint firstItem="Ryi-K0-flX" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="QkS-Ox-PFk"/>
+                            <constraint firstAttribute="trailing" secondItem="Ryi-K0-flX" secondAttribute="trailing" id="h4A-eA-LzL"/>
+                        </constraints>
                     </view>
                     <connections>
                         <outlet property="testButton" destination="NGY-Gh-A5t" id="CTK-dk-VSO"/>
@@ -38,6 +47,10 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="33.75" y="47.5"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="Image" width="180" height="266"/>
+    </resources>
 </document>
