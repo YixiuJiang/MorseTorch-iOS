@@ -514,6 +514,7 @@
 				32AD98F51EF2027E00FA5CA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32AD98F61EF2027E00FA5CA8 /* Build configuration list for PBXNativeTarget "MorseTorchTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				32AD98F81EF2027E00FA5CA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		32AD98F91EF2027E00FA5CA8 /* Build configuration list for PBXNativeTarget "MorseTorchUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				32AD98FB1EF2027E00FA5CA8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
