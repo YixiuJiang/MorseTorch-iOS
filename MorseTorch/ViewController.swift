@@ -126,30 +126,21 @@ class ViewController: UIViewController {
      - parameter on: pass `true` to turn it on or `false` to turn it off
      */
     private func turnFlashlight(on: Bool) {
-        // if on == true  -> turn it on
-        // if on == false -> turn it off
-        if (on == true){
-            if (torchDevice.hasTorch) {
-                do {
-                    try torchDevice.lockForConfiguration()
+        
+        if (torchDevice.hasTorch) {
+            do {
+                try torchDevice.lockForConfiguration()
+                if (on == true){
                     torchDevice.torchMode = AVCaptureTorchMode.on
-                    torchDevice.unlockForConfiguration()
-                } catch {
-                    print(error)
-                }
-                
-            }
-        }else{
-            if (torchDevice.hasTorch) {
-                do {
-                    try torchDevice.lockForConfiguration()
+                }else{
                     torchDevice.torchMode = AVCaptureTorchMode.off
-                    torchDevice.unlockForConfiguration()
-                } catch {
-                    print(error)
+                    
                 }
-                
+                torchDevice.unlockForConfiguration()
+            } catch {
+                print(error)
             }
+            
         }
     }
     
